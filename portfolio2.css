@@ -1,0 +1,38 @@
+#side-head{
+    text-align: center;
+}
+.title{
+    text-align: center;
+    /* margin: 0; */
+}
+.profile-img1 img{
+    /* border-radius: 50%; */
+    height: 15rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    /* margin-top: 2rem; */
+    /* position: relative; */
+}
+.about-details-container{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 4rem;
+    /* box-sizing: border-box; */
+}
+.details{
+    /* border: 2px solid black; */
+    box-shadow: 0px 0px 30px rgba(0,0,0,0.2);
+    width: 40vh;
+    /* height:22vh; */
+    display: block;
+    text-align: center;
+    padding: 1rem;
+   border-radius: 2rem;
+}
+.text-container{
+    line-height: 1.5;
+    margin: 1rem;
+    font-size: 1.3rem;
+}

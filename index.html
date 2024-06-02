@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0",  user-scalable="no">
+    <link rel="stylesheet" href="Portfolio.css">
+    <link rel="stylesheet" href="portfolio2.css">
+    <!-- <link rel="stylesheet" href="port.css"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link
+        href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+    <title>Portfolio</title>
+</head>
+<body>
+    
+    <div class="gradient">
+        <nav>
+            <div class="sidebar hide" >
+                <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="#mywork">My Works</a>
+                </li>
+                <li>
+                    <a href="#skills">Skills</a>
+                </li>
+            </div>
+                    <li id="image"><img src="imgg.png" alt="">
+                    </li>
+                    <div class="main-nav-hide">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="#mywork">My Works</a>
+                        </li>
+                        <li>
+                            <a href="#skills">Skills</a>
+                        </li>
+                    </div>
+                    <li onclick=showSidebar()  class="menu"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+                   
+        </nav>
+    </div>
+    
+    
+    <section class="profile">
+        <div class="profile-img">
+            <img src="isha.png" width="46" height="34">
+        </div>
+        <div class="section-text">
+            <p class="section-text-p1">Hello, I am</p>
+            <h1 class="title">Isha Gupta</h1>
+            <p class="section-text-p2">Frontend Developer</p>
+            <div class="btn-container">
+                <button class="btn1" onclick="window.open('isha_resume.pdf')">Download CV</button>
+                <button class="btn1" onclick="location.href='#contacts'">Contact Info</button>
+            </div>
+        </div>
+        <div class="social-media">
+            <img src="linkdlen.png" alt  onclick="location.href='https://www.linkedin.com/in/isha-gupta-49aba9278/'" id="meta">
+            <img src="github.png" alt onclick="location.href='https://github.com/Bloomer004'" id="meta">
+        </div>
+    </section>
+
+
+    <section class="about" >
+        <p class="section-text-p1" id="side-head">Get to Know more</p>
+        <h1 class="title" id="head-name">About Me</h1>
+        <div class="about-container">
+            <!-- <div class="profile-img1">
+                <img src="orange.jpg" alt="img" class="img2">
+            </div> -->
+            <!-- <div class="column"> -->
+            <div class="about-details-container">
+                <div class="details">
+                    <img src="icons8-badge-30.png" alt class="icon">
+                    <h1>Experience</h1>
+                    <p>Fresher
+                        <br>
+                        <b>Full Stack Developer</b>
+                    </p>
+                </div>
+                <div class="details">
+                    <img src="icons8-badge-30.png" alt class="icon">
+                    <h1>Education</h1>
+                    <p>Btech
+                        <br>
+                        <b>Bachelor's Degree</b>
+                    </p>
+                </div>
+            </div>
+            
+        <div class="text-container">
+                <p>Hello, I'm  Isha Gupta, a passionate web developer dedicated to crafting exceptional digital experiences. 
+                    I specialize in building modern, user-friendly websites and web applications tailored to meet your unique needs.
+                    <br>
+                    <b>What I Do</b>
+                    <b>Frontend Development</b>: Transforming designs into responsive, interactive websites.
+                    <br>
+                    <b>Backend Development</b>:Building robust server-side applications.
+                    <br>
+                    <b>UI/UX Design</b>: Creating intuitive user interfaces and delightful user experiences.</p>
+        </div>
+        <!-- </div> -->
+    </div>
+</section>
+      <section class="experience" id="skills">
+        <div class="side-name">
+            <p class="section-text-p1"  id="side-head ">Explore My</p>
+            <h1 class="title" id="head-name">Skills</h1>
+        </div> 
+        <div class="main">
+            <div class="flip-card1">
+                <div class="flip-inner">
+                    <div class="flip-front" id="html">
+                        <img src="https://cdn0.iconfinder.com/data/icons/HTML5/512/HTML_Logo.png" alt="">
+                    </div>
+                    <div class="flip-back">
+                        <h3>HTML</h3>
+                        <p> I have good knowledge about HTML(intermediate level).</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card2">
+                <div class="flip-inner">
+                    <div class="flip-front" id="css">
+                        <img src="https://cdn4.iconfinder.com/data/icons/flat-brand-logo-2/512/css3-1024.png" alt="">
+                    </div>
+                        <div class="flip-back">
+                            <h3>CSS</h3>
+                            <p> I have good knowledge about CSS(intermediate level).</p>
+                        </div>
+                    </div>
+            </div>
+            <div class="flip-card3">
+                <div class="flip-inner" >
+                    <div class="flip-front" id="js">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Javascript_badge.svg/946px-Javascript_badge.svg.png" alt="" >
+                    </div>
+                        <div class="flip-back">
+                            <h3>Javascript</h3>
+                            <p> I have good knowledge about Javascript(Beginner level).</p>
+                        </div>
+                </div>
+            </div>
+            </div>
+        </section>
+    <section class="projects"  id="mywork">
+        <p class="section-text-p1" id="side-head">Browse My Recents</p>
+        <h1 class="title" id="head-name">Vanilla Javascript</h1>
+        <div class="about-experience-details">
+
+            <div class="project1">
+                <div class="article-container">
+                    <img src="https://i.etsystatic.com/18154652/r/il/761e9c/5224496828/il_570xN.5224496828_q1rl.jpg" alt="imgg" class="project-img">
+                    <p class="sub-title">DrumKit</p>
+                    <button class="btn2" onclick="location.href='https://bloomer004.github.io/DrumKit-01/ '">Demo</button>
+                </div>
+               
+            </div>
+            <div class="project2">
+                <div class="article-container">
+                    <img src="https://i.pinimg.com/736x/ff/82/b6/ff82b60ae9a861649767e938e360deea.jpg" alt="imgg" class="project-img">
+                </div>
+                <p class="sub-title">Clock</p>
+                <button class="btn2" onclick="location.href='https://bloomer004.github.io/Clock/'">Demo</button>
+            </div>
+            <div class="project3">
+                <div class="article-container">
+                    <img src="spotify.jpg" alt="imgg" class="project-img">
+                </div>
+                <p class="sub-title">Spotify</p>
+                <button class="btn2" onclick="location.href='https://bloomer004.github.io/spotify/'">Demo</button>
+            </div>
+            <div class="project4">
+                <div class="article-container">
+                    <img src="https://img.freepik.com/premium-photo/black-white-drawing-large-group-cartoon-animals-generative-ai_955925-28456.jpg" alt="" class="project-img">
+                </div>
+                <p class="sub-title">PetAdoption</p>
+                <button class="btn2" onclick="location.href='https://bloomer004.github.io/petAdoption/'">Demo</button>
+            </div>
+        </div>
+    </section>
+    <section class="contacts" id="contacts">
+        <p class="section-text-p1">Get in touch</p>
+        <h1 class="title" id="head-name">Contact Me</h1>
+        <div class="contact-info-container">
+            <div class="contact-container">
+                <img src="email.png" alt onclick="location.href='https://mail.google.com/mail/u/0/?tab=rm&ogb'" id="linking-img1">
+            </div>
+            <div class="contact-container">
+                <img src="linkdlen.png" alt  onclick="location.href='https://www.linkedin.com/in/isha-gupta-49aba9278/'" id="linking-img2" >
+                <!-- <p>
+                    <a href="nbvcxzx" class="contact"></a>
+                </p> -->
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav class="footer">
+            <div class="nav-links-conatiner">
+                <ul class="nav-links2">
+                    <li>
+                        <a href="index.html" >Home</a>
+                    </li>
+                    <li>
+                        <a href="#mywork">My Works</a>
+                    </li>
+                    <li>
+                        <a href="#skills">Skills</a>
+                    </li>
+                </ul>
+            </div>
+            <p>Copyright <img src="icon8.png" > Isha Gupta</p>
+        </nav>
+    </footer>
+
+<script>
+    function showSidebar(){
+        const show = document.querySelector('.hide')
+        show.style.display='flex'
+    }
+    function hideSidebar(){
+        const hide = document.querySelector('.hide')
+        hide.style.display='none'
+    }
+</script>
+
+</body>
+</html>

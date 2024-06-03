@@ -466,6 +466,9 @@ body{
     #image img {
         width: 4rem;
     }
+    .flip-front img{
+    width: 20vw;
+}
 }
 .menu{
     display: none;
@@ -675,12 +678,4 @@ nav li{
 button .btn1 {
     transition: all 300ms ease;
 }
-.flip-front img{
-    width: 20vw;
-}
-#css img{
-    width: 24vw;
-}
-#js{
-    width:10vw ;
-}
+
